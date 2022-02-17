@@ -43,21 +43,20 @@ def get_city_coords(city): # do not have to call this in main body, just pass th
     return [lat, lon]
 
 '''
-This function passes in lon, lat from get_city_coords().
-It will get temperature based on city from JSON data and convert to celsius/farenheit.
-Returns C/F in degree format and weather conditions of city.
+    This function passes in lon, lat from get_city_coords(). It will get temperature based on city from JSON data and convert to celsius/farenheit.
+    Returns C/F in degree format and weather conditions of city.
 
-def get_weather(get_city_coords: function) -> list[int, string]:
+    def get_weather(get_city_coords: function) -> list[int, string]:
 
-    Parameters
-    ----------
-    get_city_coords : function
-        returned list that holds longitude and latitude float values
+        Parameters
+        ----------
+        get_city_coords : function
+            returned list that holds longitude and latitude float values
 
-    Returns
-    -------
-    list[int, string]
-        returns list of weather id (int) and weather (string)
+        Returns
+        -------
+        list[int, string]
+            returns list of weather id (int) and weather (string)
 '''
 
 def get_weather(get_city_coords, city):
